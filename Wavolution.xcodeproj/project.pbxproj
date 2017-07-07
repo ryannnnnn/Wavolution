@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9445D1451E0D905200392D6D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9445D1441E0D905200392D6D /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9445D13F1E0D905200392D6D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		940634F81E159B8F003B217B /* FourierTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FourierTransform.cpp; sourceTree = "<group>"; };
+		9445D1411E0D905200392D6D /* Wavolution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Wavolution; sourceTree = BUILT_PRODUCTS_DIR; };
+		9445D1441E0D905200392D6D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9445D14B1E0D907300392D6D /* WaveFileMaker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaveFileMaker.cpp; sourceTree = "<group>"; };
+		946BACBF1E120E8200715802 /* WaveFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaveFileReader.cpp; sourceTree = "<group>"; };
+		946BACC11E12115700715802 /* WaveForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaveForm.cpp; sourceTree = "<group>"; };
+		946BACC31E12190A00715802 /* EndianIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EndianIO.cpp; sourceTree = "<group>"; };
+		949CC6781E1C371900368E82 /* HarmonicSpectrum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HarmonicSpectrum.cpp; sourceTree = "<group>"; };
+		949CC67A1E1C454900368E82 /* GeneManipulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeneManipulator.cpp; sourceTree = "<group>"; };
+		949CC67C1E1C4B2900368E82 /* GeneticAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeneticAlgorithm.cpp; sourceTree = "<group>"; };
+		949CC67E1E1C4D2B00368E82 /* GeneticEvaluator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeneticEvaluator.cpp; sourceTree = "<group>"; };
+		949CC6801E1C68F700368E82 /* TestWaves.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestWaves.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9445D13E1E0D905200392D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9445D1381E0D905200392D6D = {
+			isa = PBXGroup;
+			children = (
+				9445D1431E0D905200392D6D /* Wavolution */,
+				9445D1421E0D905200392D6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9445D1421E0D905200392D6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9445D1411E0D905200392D6D /* Wavolution */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9445D1431E0D905200392D6D /* Wavolution */ = {
+			isa = PBXGroup;
+			children = (
+				9445D1441E0D905200392D6D /* main.cpp */,
+				9445D14B1E0D907300392D6D /* WaveFileMaker.cpp */,
+				946BACBF1E120E8200715802 /* WaveFileReader.cpp */,
+				946BACC11E12115700715802 /* WaveForm.cpp */,
+				946BACC31E12190A00715802 /* EndianIO.cpp */,
+				940634F81E159B8F003B217B /* FourierTransform.cpp */,
+				949CC6781E1C371900368E82 /* HarmonicSpectrum.cpp */,
+				949CC67A1E1C454900368E82 /* GeneManipulator.cpp */,
+				949CC67C1E1C4B2900368E82 /* GeneticAlgorithm.cpp */,
+				949CC67E1E1C4D2B00368E82 /* GeneticEvaluator.cpp */,
+				949CC6801E1C68F700368E82 /* TestWaves.cpp */,
+			);
+			path = Wavolution;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9445D1401E0D905200392D6D /* Wavolution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9445D1481E0D905200392D6D /* Build configuration list for PBXNativeTarget "Wavolution" */;
+			buildPhases = (
+				9445D13D1E0D905200392D6D /* Sources */,
+				9445D13E1E0D905200392D6D /* Frameworks */,
+				9445D13F1E0D905200392D6D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wavolution;
+			productName = Wavolution;
+			productReference = 9445D1411E0D905200392D6D /* Wavolution */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9445D1391E0D905200392D6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = RyanLarson;
+				TargetAttributes = {
+					9445D1401E0D905200392D6D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5PGW54V786;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9445D13C1E0D905200392D6D /* Build configuration list for PBXProject "Wavolution" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9445D1381E0D905200392D6D;
+			productRefGroup = 9445D1421E0D905200392D6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9445D1401E0D905200392D6D /* Wavolution */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9445D13D1E0D905200392D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9445D1451E0D905200392D6D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9445D1461E0D905200392D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9445D1471E0D905200392D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9445D1491E0D905200392D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5PGW54V786;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9445D14A1E0D905200392D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5PGW54V786;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9445D13C1E0D905200392D6D /* Build configuration list for PBXProject "Wavolution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9445D1461E0D905200392D6D /* Debug */,
+				9445D1471E0D905200392D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9445D1481E0D905200392D6D /* Build configuration list for PBXNativeTarget "Wavolution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9445D1491E0D905200392D6D /* Debug */,
+				9445D14A1E0D905200392D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9445D1391E0D905200392D6D /* Project object */;
+}
